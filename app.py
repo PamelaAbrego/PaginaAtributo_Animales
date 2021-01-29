@@ -8,6 +8,9 @@ def home():
     return render_template("index.htm")
 
 
+# Otra página:
+
+
 @app.route("/vertebrados")
 def about():
     return render_template("vertebrados.htm")
